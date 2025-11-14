@@ -1,153 +1,44 @@
-/* ---------- ESTILO GERAL ---------- */
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background-color: #fdfaf5;
-  color: #4a3b32;
-}
-
-h1, h2, h3 {
-  font-family: 'Didot', serif;
-  letter-spacing: 1px;
-}
-
-/* ---------- CABEÇALHO ---------- */
-header {
-  background-color: #fffaf3;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 50px;
-  border-bottom: 2px solid #e8d7c3;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo img {
-  height: 50px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 25px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #4a3b32;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: #a88b67;
-}
-
-/* ---------- BANNER ---------- */
-.banner {
-  width: 100%;
-  overflow: hidden;
-}
-
-.banner-img {
-  width: 100%;
-  display: block;
-}
-
-/* ---------- SEÇÃO SOBRE ---------- */
-.sobre {
+  background: #faf9f6;
+  color: #333;
+  margin: 0;
   text-align: center;
-  padding: 60px 20px;
-  max-width: 900px;
+}
+
+header {
+  background: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo { height: 60px; }
+
+.banner img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
   margin: auto;
 }
 
-.sobre h2 {
-  color: #a88b67;
-  font-size: 2em;
+main h2 {
+  color: #bfa05a;
+  font-family: 'Didot', serif;
 }
 
-.sobre p {
-  line-height: 1.8;
-  margin: 20px 0;
-  font-size: 1.1em;
+.perfume {
+  width: 200px;
+  margin-top: 15px;
 }
 
-.perfume-img {
-  width: 250px;
-  margin-top: 30px;
-  border-radius: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-/* ---------- SEÇÃO VALORES ---------- */
-.valores {
-  background-color: #faf5ef;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.valores h2 {
-  color: #a88b67;
-  margin-bottom: 40px;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.card {
-  background-color: #fff;
-  border-radius: 20px;
-  padding: 25px;
-  width: 250px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-}
-
-.card h3 {
-  color: #7b6048;
-}
-
-.card p {
-  font-size: 0.95em;
-}
-
-/* ---------- RODAPÉ ---------- */
 footer {
-  background-color: #4a3b32;
-  color: #fffaf3;
-  text-align: center;
-  padding: 15px;
+  background: #f1f1f1;
+  padding: 10px;
   font-size: 0.9em;
-}
-/* Ajusta o logo */
-.header img {
-  width: 140px;      /* tamanho ideal do logo */
-  height: auto;
-  margin-left: 20px;
-}
-
-/* Ajusta o banner principal */
-.banner img {
-  width: 100%;        /* ocupa toda a largura da tela */
-  max-height: 500px;  /* altura máxima */
-  object-fit: cover;  /* mantém proporção e ajustar sem cortar aproximar banner da SEÇÃO SOBRE*/
-  display: block;
-}
-
-/* Ajusta a imagem do perfume */
-.content img {
-  width: 250px;       /* tamanho médio */
-  height: auto;
-  display: block;
-  margin: 30px auto;  /* centraliza */
-  border-radius: 8px; /* bordas suaves */
+  color: #777;
 }
